@@ -14,10 +14,10 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
 end
 
-# group :development do
-#   gem "better_errors"
-#   gem "binding_of_caller"
-# end
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
